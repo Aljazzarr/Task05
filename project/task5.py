@@ -27,3 +27,32 @@ print(a_Seperator)
 print("Question No.05")
 print(f' "Hello {user_Name}, How Are You \\ ""\" Your Age is "{user_Age}"" + \n And Your Country is {user_Country} ')
 print(a_Seperator)
+# 06
+print("Question No.06")
+print(f' "Hello {user_Name}, How Are You \\ \n ""\" Your Age is "{user_Age}"" + And\n Your Country is {user_Country} ')
+print(a_Seperator)
+# 07
+print("Question No.07")
+name = 'ITF Gsg Python'
+print(f'first letter is "{name[0]}"')
+print(f'Third letter is "{name[2]}"')
+print(f'Last letter is "{name[-1]}"')
+print(a_Seperator)
+# 08
+print("Question No.08")
+print((name[-3:]))
+print((name[:3]))
+print((name[0:7:2]))
+print((name[-1:6:-1]))
+print(a_Seperator)
+# 09
+print("Question No.09")
+name = "$&$&Mohammed$&$&"
+print((name[4:-4]))
+print(a_Seperator)
+# 10
+print("Question No.10")
+msg = "I %7 Python And Although I %7 GSG with Trainer Eng-Zakaria"
+msg = msg.replace("%7", "love")
+print(msg)
+print(a_Seperator)

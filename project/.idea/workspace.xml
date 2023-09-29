@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e0bbab-77d9-4265-b2ec-268dfc73549a" name="Changes" comment="" />
+    <list default="true" id="d9e0bbab-77d9-4265-b2ec-268dfc73549a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/task5.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
     &quot;last_opened_file_path&quot;: &quot;F:/PythonGeeks/task5/project/task5.py&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.task5 (1)">
+  <component name="RunManager" selected="Python.task5">
     <configuration name="Task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task5 (1)" />
         <item itemvalue="Python.task5" />
+        <item itemvalue="Python.task5 (1)" />
         <item itemvalue="Python.Task5" />
       </list>
     </recent_temporary>
