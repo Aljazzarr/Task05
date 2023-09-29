@@ -54,7 +54,7 @@ nohtyP
 Remove the symbols (before and after) the name:
 name = "$&$&Mohammed$&$&"
 
-# Output should be:
+ Output should be:
 
 Mohammed
 
@@ -62,7 +62,7 @@ Create a variable with the next value, Replace all matches of the symbol (%7) wi
 
 msg = "I %7 Python And Although I %7 GSG with Zakaria"
 
-# Needed To be Output
+############Needed To be Output
 
 I Love Python And Although I Love GSG with Zakaria
 
@@ -75,7 +75,7 @@ num4 = "385"
 num5 = "8719"
 num6 = "87190"
 
-# Needed To be Output
+Needed To be Output
 
 00004
 00056
@@ -88,7 +88,7 @@ Create a variable with your name value, and print the next output:
 
 first_name = "Dana"
 
-# Needed To be Output
+#### Needed To be Output
 
 ****\*\*\*****Dana
 ****\*\*\*****Dana****\*\*\*****
@@ -98,7 +98,7 @@ Create 2 variables with the next values, and print the next output:
 name_one = "SaMER"
 name_two = "Abed"
 
-# Needed To be Output
+#### Needed To be Output
 
 sAmer
 aBED
@@ -112,7 +112,7 @@ Bonus (+2 Marks)
 Create a variable with the next value, and print how many times (Love) word and the letter (t) within the string:
 msg = "I Love Python And Although I Love GSG with Zakaria"
 
-# Needed To be Output
+#### Needed To be Output
 
 Number of <Love> is: 2
 Number of <t> is:3
@@ -120,7 +120,7 @@ Number of <t> is:3
 Create a variable with the next value, and replace Only the first match of the symbol (%7) with the (Love) word:
 msg = "I %7 Python And Although I %7 GSG with Zakaria"
 
-# Needed To be Output
+#### Needed To be Output
 
 I Love Python And Although I %7 GSG with Zakaria
 
@@ -131,12 +131,12 @@ test2 = "Zakaria"
 test3 = "A war at Tarawa."
 test4 = "madam"
 
-# Needed To be Output
+#### Needed To be Output
 
 ZakZak is symmetrical, but ZakZak is NOT a palindrome.
-################################
+################################################################################################################################
 Zakaria is NOT symmetrical, and Zakaria is NOT a palindrome.
-################################
+################################################################################################################################
 A war at Tarawa. is NOT symmetrical, but A war at Tarawa. is a palindrome.
-################################
+################################################################################################################################
 madam is NOT symmetrical, but madam is a palindrome.
