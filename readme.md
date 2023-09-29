@@ -132,11 +132,7 @@ test3 = "A war at Tarawa."
 test4 = "madam"
 
 #### Needed To be Output
-
 ZakZak is symmetrical, but ZakZak is NOT a palindrome.
-################################################################################################################################
+################################
 Zakaria is NOT symmetrical, and Zakaria is NOT a palindrome.
-################################################################################################################################
-A war at Tarawa. is NOT symmetrical, but A war at Tarawa. is a palindrome.
-################################################################################################################################
-madam is NOT symmetrical, but madam is a palindrome.
+################################
