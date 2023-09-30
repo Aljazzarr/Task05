@@ -100,7 +100,7 @@ print("Question No.16")
 print(name_one.isupper())
 print(name_two.islower())
 print(a_Seperator)
-#17
+# 17
 print("Question No.17")
 print(name_one.startswith("S"))
 print(name_two.endswith("HD"))
@@ -116,4 +116,73 @@ print("Question No.19")
 msg = "I %7 Python And Although I %7 GSG with Zakaria"
 msg = msg.replace("%7", "love", 1)
 print(msg)
+print(a_Seperator)
+print("Question No.20")
+# palindrome  => Palindrome Strings are a sequence of alphabets which when reversed, stay similar to the original
+# sequence.
+# Symmetrical => A string that, when broken into two halves, produces two similar sequences of characters
+test1 = "ZakZak"
+test2 = "Zakaria"
+test3 = "A war at Tarawa."
+test4 = "madam"
+test3 = (test3.casefold().lower()).replace(" ","").replace(".","")
+print(test3)
+half1 = len(test1) // 2
+half2= len(test2) // 2
+half3= len(test3) // 2
+half4= len(test4) // 2
+# 1. check if symmetrical (both halves are the same)=>
+######################## in  case of true ###################
+# will check  if
+# is it palindrome(can read reverse) in case of true will print(symmetrical and palindrome  )
+# in case of false will print (symmetric but not palindrome)
+###################### in case of false ######################
+# print "ZakZak" is not a symmetrical and check if palindrome again
+if test1[0:half1] == test1[half1::]:  # check if symmetrical
+    if test1 == test1[::-1]:  # check the symmetrical st if palindrome also
+        print("ZakZak is symmetrical,And ZakZak is palindrome")  # True
+    else:
+        print("ZakZak is symmetrical, But ZakZak is Not Palindrome.")  # False
+else:
+    if test1 == test1[::-1]:
+        print("ZakZak is not Symmetrical, But ZaZak is Palindrome")
+    else:
+        print("ZakZak is not Symmetrical, And ZaZak is Not Palindrome")
+print (a_Seperator)
+####
+if test2[0:half2] == test2[half2::]:  # check if symmetrical
+    if test2 == test2[::-1]:  # check the symmetrical st if palindrome also
+        print("Zakaria is symmetrical,And Zakaria is palindrome")  # True
+    else:
+        print("Zakaria is symmetrical, But Zakaria is Not Palindrome.")  # False
+else:
+    if test2 == test2[::-1]:
+        print("Zakaria is not Symmetrical, But Zakaria is Palindrome")
+    else:
+        print("Zakaria is not Symmetrical, And Zakaria is Not Palindrome")
+print (a_Seperator)
+####
+if test3[0:half3] == test3[half3::]:  # check if symmetrical
+    if test3 == test3[::-1]:  # check the symmetrical st if palindrome also
+        print("madam, is symmetrical,And madam, is palindrome")  # True
+    else:
+        print("madam, is symmetrical, madam is Not Palindrome.")  # False
+else:
+    if test3 == test3[::-1]:
+        print("madam, is not Symmetrical, But madam, is Palindrome")
+    else:
+        print("madam is not Symmetrical, And madam is Not Palindrome")
+print(a_Seperator)
+if test4[0:half4] == test4[half4::]:  # check if symmetrical
+    if test4 == test4[::-1]:  # check the symmetrical st if palindrome also
+        print("madam, is symmetrical,And madam is palindrome")  # True
+    else:
+        print("madam, is symmetrical, But madam is Not Palindrome.")  # False
+else:
+    if test4 == test4[::-1]:
+        print("madam, is not Symmetrical, But madam, is Palindrome")
+    else:
+        print("madam is not Symmetrical, And madam is Not Palindrome")
+print(a_Seperator)
+print("*****without Any function or loop just using slicing and indexing wit conditional if**** ")
 print(a_Seperator)
